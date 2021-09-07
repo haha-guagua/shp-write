@@ -7,7 +7,7 @@
     "test": "mocha -R spec",
     "prepublish": "npm run make",
     "make": "browserify -s shpwrite ./ > shpwrite.js",
-    "make-test": "browserify indexTest.js > shpwrite.js"
+    "make-test": "browserify indexTest.js --debug > shpwrite.js"
   },
   "repository": {
     "type": "git",
