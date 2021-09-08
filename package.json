@@ -1,6 +1,10 @@
 {
   "name": "@fielda/shp-write",
   "version": "0.4.2",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "write shapefiles from pure javascript",
   "main": "index.js",
   "scripts": {
