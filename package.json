@@ -1,6 +1,6 @@
 {
   "name": "@fielda/shp-write",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "write shapefiles from pure javascript",
   "main": "index.js",
   "scripts": {
