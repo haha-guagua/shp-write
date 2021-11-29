@@ -1,6 +1,8 @@
 [![Build Status](https://secure.travis-ci.org/mapbox/shp-write.svg?branch=master)](http://travis-ci.org/mapbox/shp-write)
 
-# shp-write
+# shp-write-chinese
+
+因为原作者不再维护shp-write项目，所以新开一个项目用来修改shp-write导出多个polygon的问题
 
 Writes shapefile in pure javascript. Uses [dbf](https://github.com/tmcw/dbf)
 for the data component, and [jsZIP](http://stuk.github.io/jszip/) to generate
@@ -10,7 +12,7 @@ ZIP file downloads in-browser.
 
 For node.js or [browserify](https://github.com/substack/node-browserify)
 
-    npm install --save shp-write
+    npm install --save shp-write-chinese
 
 Or in a browser
 
@@ -27,7 +29,7 @@ Or in a browser
 ## Example
 
 ```js
-var shpwrite = require('shp-write');
+var shpwrite = require('shp-write-chinese');
 
 // (optional) set names for feature types and zipped folder
 var options = {
