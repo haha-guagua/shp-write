@@ -1,6 +1,6 @@
 {
   "name": "shp-write-chinese",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "write shapefiles from pure javascript",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/haha-guagua/dbf-chinese.git"
+    "url": "git://github.com/haha-guagua/shp-write-chinese.git"
   },
   "files": [
     "index.js",
@@ -31,7 +31,7 @@
   ],
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/haha-guagua/dbf-chinese/issues"
+    "url": "https://github.com/haha-guagua/shp-write-chinese/issues"
   },
   "dependencies": {
     "dbf-chinese": "^1.0.0",
