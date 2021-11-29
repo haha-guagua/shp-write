@@ -1,6 +1,6 @@
 {
-  "name": "shp-write",
-  "version": "0.3.2",
+  "name": "shp-write-chinese",
+  "version": "1.0.0",
   "description": "write shapefiles from pure javascript",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "url": "https://github.com/mapbox/shp-write/issues"
   },
   "dependencies": {
-    "dbf": "0.1.4",
+    "dbf-chinese": "^1.0.0",
     "jszip": "2.5.0"
   },
   "devDependencies": {
